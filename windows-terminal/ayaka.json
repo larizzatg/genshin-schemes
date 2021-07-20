@@ -1,0 +1,23 @@
+{
+    "name": "Kamisato Ayaka",
+    "black": "#494552",
+    "red": "#993538",
+    "green": "#2AA8B9",
+    "yellow": "#D7C07D",
+    "blue": "#7CADEF",
+    "purple": "#9890CF",
+    "cyan": "#4ADBEC",
+    "white": "#FFEFFA",
+    "brightBlack": "#3D3F89",
+    "brightRed": "#D7766E",
+    "brightGreen": "#38AEBC",
+    "brightYellow": "#F8E69E",
+    "brightBlue": "#A4E5FF",
+    "brightPurple": "#A8B2EF",
+    "brightCyan": "#4FE6F1",
+    "brightWhite": "#ffffff",
+    "background": "#272A4D",
+    "foreground": "#E2E3E8",
+    "selectionBackground": "#131753",
+    "cursorColor": "#DDD090"
+}
