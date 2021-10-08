@@ -1,0 +1,67 @@
+@import url("https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@700&display=swap");
+:root {
+  --font-heading: "Space Grotesk", "Inter", -apple-system, BlinkMacSystemFont,
+    "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji",
+    "Segoe UI Emoji", "Segoe UI Symbol", "Microsoft YaHei Light", sans-serif;
+}
+
+.theme-dark {
+  --background-primary: #142234;
+  --background-primary-alt: #111c2d;
+  --background-secondary: #0e1825;
+  --background-secondary-alt: #0b131d;
+  --background-modifier-border: #111c2d;
+  --background-modifier-form-field: rgba(0, 0, 0, 0.3);
+  --background-modifier-form-field-highlighted: rgba(0, 0, 0, 0.22);
+  --background-modifier-box-shadow: rgba(0, 0, 0, 0.3);
+  --background-modifier-success: #197300;
+  --background-modifier-error: #400707;
+  --background-modifier-error-rgb: 61, 0, 0;
+  --background-modifier-error-hover: #530909;
+  --background-modifier-cover: rgba(0, 0, 0, 0.8);
+  --text-accent: #d0b98d;
+  --text-accent-hover: #cbac69;
+  --text-normal: #d9d9d6;
+  --text-muted: #b1c3ca;
+  --text-muted-rgb: 177, 195, 202;
+  --text-faint: #b8adba;
+  --text-error: #ff3333;
+  --text-error-hover: #990000;
+  --text-highlight-bg: rgba(131, 39, 94, 0.7);
+  --text-highlight-bg-active: rgba(251, 174, 197, 0.6);
+  --text-selection: rgba(31, 53, 81, 0.99);
+  --text-on-accent: #d9d9d6;
+  --interactive-normal: #2a2a2a;
+  --interactive-hover: #303030;
+  --interactive-accent: #56698a;
+  --interactive-accent-rgb: 72, 54, 153;
+  --interactive-accent-hover: #4d3ca6;
+  --interactive-success: #197300;
+  --scrollbar-active-thumb-bg: rgba(255, 255, 255, 0.2);
+  --scrollbar-bg: rgba(255, 255, 255, 0.05);
+  --scrollbar-thumb-bg: rgba(255, 255, 255, 0.1);
+  --highlight-mix-blend-mode: lighten;
+}
+
+/** GLOBAL STYLES **/
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--font-heading);
+}
+
+.theme-dark .workspace-tab-header.is-active {
+  color: var(--text-accent-hover);
+}
+
+.markdown-preview-view code {
+  color: #b43d5c;
+}
+
+/* Align center, text in metadata fm */
+.frontmatter-container .frontmatter-section {
+  align-items: center;
+}
